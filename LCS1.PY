@@ -17,10 +17,9 @@ def lcs(s1,s2,l1,l2,dp):
         dp[l1][l2]=max(lcs(s1,s2,l1-1,l2,dp),lcs(s1,s2,l1,l2-1,dp))
     return dp[l1][l2]
 
-print(lcs(s1,s2,l1,l2,dp))
-print(dp)
-for i in range(l1):
-    print(dp[i])
+
+
+
 
 def plcs(s1,s2,l1,l2,dp):
     res=""
@@ -33,5 +32,7 @@ def plcs(s1,s2,l1,l2,dp):
     else:
         res=plcs(s1,s2,l1-1,l2,dp)
     return res
+
+print(lcs(s1,s2,l1,l2,dp))
 print(plcs(s1,s2,l1,l2,dp))
         

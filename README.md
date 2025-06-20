@@ -1,3 +1,3 @@
 # Dsa_Codes
-Longest common subsequence both printing length of LCS and printing exact  sequence
---aky
+LCS1.PY:-Longest common subsequence both printing length of LCS and printing exact  sequence
+
